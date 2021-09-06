@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Men Casual Shoe",
+      "price": "1500",
+      "image": "./img/images/pic1.webp",
+      "category": "featured"
+    },
+    {
+      "id": "2",
+      "title": "Men Casual Shoe",
+      "price": "500",
+      "image": "./img/images/pic2.webp",
+      "category": "trend"
+    },
+    {
+      "id": "3",
+      "title": "Men Casual Shoe",
+      "price": "1000",
+      "image": "./img/images/pic3.webp",
+      "category": "featured"
+    },
+    {
+      "id": "4",
+      "title": "Men Casual Shoe",
+      "price": "3000",
+      "image": "./img/images/pic4.webp",
+      "category": "trend"
+    },
+    {
+      "id": "5",
+      "title": "Men Casual Shoe",
+      "price": "2099",
+      "image": "./img/images/pic5.webp",
+      "category": "featured"
+    },
+    {
+      "id": "6",
+      "title": "Men Casual Shoe",
+      "price": "9000",
+      "image": "./img/images/pic6.webp",
+      "category": "recent"
+    },
+    {
+      "id": "7",
+      "title": "Men Casual Shoe",
+      "price": "1021",
+      "image": "./img/images/pic8.webp",
+      "category": "trend"
+    },
+    {
+      "id": "8",
+      "title": "Men Casual Shoe",
+      "price": "3400",
+      "image": "./img/images/pic7.webp",
+      "category": "featured"
+    },
+    {
+      "id": "9",
+      "title": "Men Casual Shoe",
+      "price": "3500",
+      "image": "./img/images/pic8.webp",
+      "category": "recent"
+    },
+    {
+      "id": "10",
+      "title": "Men Casual Shoe",
+      "price": "1500",
+      "image": "./img/images/pic1.webp",
+      "category": "trend"
+    },
+    {
+      "id": "11",
+      "title": "Men Casual Shoe",
+      "price": "2000.99",
+      "image": "./img/images/pic9.webp",
+      "category": "special"
+    },
+    {
+      "id": "12",
+      "title": "Men Casual Shoe",
+      "price": "2000.99",
+      "image": "./img/images/pic10.webp",
+      "category": "special"
+    },
+    {
+      "id": "13",
+      "title": "Men Casual Shoe",
+      "price": "2000.99",
+      "image": "./img/images/pic11.webp",
+      "category": "special"
+    },
+    {
+      "id": "14",
+      "title": "Men Casual Shoe",
+      "price": "1250",
+      "image": "./img/images/pic12.webp",
+      "category": "recent"
+    },
+    {
+      "id": "15",
+      "title": "Men Casual Shoe",
+      "price": "2000.99",
+      "image": "./img/images/pic7.webp",
+      "category": "special"
+    },
+    {
+      "id": "16",
+      "title": "Men Casual Shoe",
+      "price": "2000.99",
+      "image": "./img/images/pic13.webp",
+      "category": "latest"
+    },
+    {
+      "id": "17",
+      "title": "Men Casual Shoe",
+      "price": "2000.99",
+      "image": "./img/images/pic14.webp",
+      "category": "recent"
+    },
+    {
+      "id": "18",
+      "title": "Men Casual Shoe",
+      "price": "2000.99",
+      "image": "./img/images/pic8.webp",
+      "category": "latest"
+    },
+    {
+      "id": "19",
+      "title": "Men Casual Shoe",
+      "price": "2000.99",
+      "image": "./img/images/pic15.webp",
+      "category": "latest"
+    },
+    {
+      "id": "20",
+      "title": "Men Casual Shoe",
+      "price": "2000.99",
+      "image": "./img/images/pic1.webp",
+      "category": "latest"
+    }
+  ]
+}

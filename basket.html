@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CoolShop</title>
+   <link rel="shortcut icon" href="img/images/favicon.ico" type="image/x-icon">
+   <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <div class="wrapper flex flex-container">
+      <header class="header">
+         <div class="mx-container">
+            <div class="header__body" id="header">
+               <div class="logo header__logo">
+                  <h1>c<span>oo</span>lshop</h1>
+               </div>
+               <nav class="nav">
+                  <div class="nav__top">
+                     <div class="logo">
+                        <h1>c<span>oo</span>lshop</h1>
+                     </div>
+                     <a href="##" class="nav__close" id="closeBtn"><i class="far fa-window-close"></i></a>
+                  </div>
+                  <ul class="nav__list">
+                     <li>
+                        <a href="index.html" class="nav__link ">home</a>
+                     </li>
+                     <li>
+                        <a href="#new" class="nav__link ">new</a>
+                     </li>
+                     <li>
+                        <a href="#blog" class="nav__link">blog</a>
+                     </li>
+                     <li>
+                        <a href="#recent" class="nav__link ">recent</a>
+                     </li>
+                     <li>
+                        <a href="allProducts.html" class="nav__link ">products</a>
+                     </li>
+                  </ul>
+               </nav>
+               <div class="header__soc">
+                  <div>
+                     <i class="fas fa-user"></i>
+                  </div>
+                  <div>
+                     <i class="fas fa-search"></i>
+                  </div>
+                  <div>
+                     <a href="basket.html">
+                        <i class="fas fa-shopping-basket"></i>
+                     </a>
+                     <span class="basket-count" id="basketCount"></span>
+                  </div>
+               </div>
+               <a href="#header" class="header__burger" id="burgerMenu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </a>
+            </div>
+         </div>
+      </header>
+      <main class="page">
+         <section class="section basket">
+            <div class="mx-container">
+               <div class="basket" id='basket'>
+               </div>
+            </div>
+         </section>
+         <div class="basket-total">
+            <div class="mx-container">
+               <div class="basket-total__wrapper flex">
+                  <table>
+                     <!-- <tr>
+                        <td>Subtotal: </td>
+                        <td>0</td>
+                     </tr> -->
+                     <tr>
+                        <td>Total: </td>
+                        <td data-type="total-price">0</td>
+                     </tr>
+                  </table>
+                  <a href="payment.html" class="basket-total__link">Buy now</a>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="mx-container">
+            <div class="footer__body">
+               <div class="footer__item footer__item-extras">
+                  <h3>EXTRAS</h3>
+                  <a href="#">Brands</a>
+                  <a href="#">Gift Certificates</a>
+                  <a href="#">Affiliate</a>
+                  <a href="#">Specials</a>
+                  <a href="#">Site Map</a>
+               </div>
+               <div class="footer__item footer__item-info">
+                  <h3>Information</h3>
+                  <a href="#">About Us</a>
+                  <a href="#">Privacy Policy</a>
+                  <a href="#">Terms & Conditions</a>
+                  <a href="#">Contact Us</a>
+                  <a href="#">Site Map</a>
+               </div>
+               <div class="footer__item footer__item-acc">
+                  <h3>My account</h3>
+                  <a href="#">My Account</a>
+                  <a href="#">Order History</a>
+                  <a href="#">Wish List</a>
+                  <a href="#">blogletter</a>
+                  <a href="#">Returns</a>
+               </div>
+               <div class="footer__item footer__item-contact">
+                  <h3>CONTACT US</h3>
+                  <div>
+                     <span>
+                        <i class="fas fa-map-marker-alt"></i>
+                     </span>
+                     42 Dream House, Dreammy street, 7131 Dreamville, USA
+                  </div>
+                  <div>
+                     <span>
+                        <i class="far fa-envelope"></i>
+                     </span>
+                     company@gmail.com
+                  </div>
+                  <div>
+                     <span>
+                        <i class="fas fa-phone"></i>
+                     </span>
+                     456-456-4512
+                  </div>
+                  <div>
+                     <span>
+                        <i class="far fa-paper-plane"></i>
+                     </span>
+                     Dream City, USA
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <div class="button-top">
+      <a href="#" class="button-top__link flex">
+         <i class="fas fa-chevron-up"></i>
+      </a>
+   </div>
+   <div id="preload" class="preload">
+   </div>
+   <div class="error" id="error">
+
+   </div>
+   <script type="module" src="js/script.js"></script>
+</body>
+
+</html>

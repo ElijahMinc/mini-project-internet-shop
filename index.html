@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CoolShop</title>
+   <link rel="shortcut icon" href="img/images/favicon.ico" type="image/x-icon">
+   <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <!-- Header -->
+      <header class="header">
+         <div class="mx-container">
+            <div class="header__body" id="header">
+               <div class="logo header__logo">
+                  <h1>c<span>oo</span>lshop</h1>
+               </div>
+               <nav class="nav">
+                  <div class="nav__top">
+                     <div class="logo">
+                        <h1>c<span>oo</span>lshop</h1>
+                     </div>
+                     <a href="##" class="nav__close" id="closeBtn"><i class="far fa-window-close"></i></a>
+                  </div>
+                  <ul class="nav__list">
+                     <li>
+                        <a href="index.html" class="nav__link ">home</a>
+                     </li>
+                     <li>
+                        <a href="#new" class="nav__link ">new</a>
+                     </li>
+                     <li>
+                        <a href="#blog" class="nav__link">blog</a>
+                     </li>
+                     <li>
+                        <a href="#recent" class="nav__link ">recent</a>
+                     </li>
+                     <li>
+                        <a href="allProducts.html" class="nav__link ">products</a>
+                     </li>
+                  </ul>
+               </nav>
+               <div class="header__soc">
+                  <div>
+                     <i class="fas fa-user"></i>
+                  </div>
+                  <div>
+                     <i class="fas fa-search"></i>
+                  </div>
+                  <div>
+                     <a href="basket.html">
+                        <i class="fas fa-shopping-basket"></i>
+                     </a>
+                     <span class="basket-count" id="basketCount">
+                     </span>
+                  </div>
+               </div>
+               <a href="#header" class="header__burger" id="burgerMenu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </a>
+            </div>
+         </div>
+      </header>
+      <!--/ Header -->
+      <!-- Main -->
+      <main class="page">
+         <div class="sale">
+            <div class="mx-container">
+               <div class="sale__item">
+                  <p>30% off your first purchase</p>
+               </div>
+            </div>
+         </div>
+         <section class="home" id="home">
+            <div class="home__body">
+               <div class="l-container">
+                  <div class="home__content flex">
+                     <div class="home__column flex-column flex">
+                        <div class="home__info info">
+                           <span class="info__item">New Inspiration 2021</span>
+                           <h2 class="info__item">Clothing made for you</h2>
+                           <h3 class="info__item">Trending from men and women style collection</h3>
+                           <div class="home__links flex">
+                              <a href="#" class="home__link">Shop women`s</a>
+                              <a href="#" class="home__link">Shop men`s</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="home__img">
+                        <picture>
+                           <source srcset="img/images/banner_2.webp" type="image/webp"><img
+                              src="img/images/banner_2.jpg" alt="banner">
+                        </picture>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Section Category -->
+         <section class="section category">
+            <div class="mx-container">
+               <h2 class="section__title">
+                  Allow your style to match your ambition!
+               </h2>
+               <div class="section__content">
+                  <div class="shop-cards">
+                     <div class="shop-cards__item">
+                        <picture>
+                           <source srcset="img/images/cat1.webp" type="image/webp"><img src="img/images/cat1.jpg"
+                              alt="cat1">
+                        </picture>
+                        <div class="shop-cards__content">
+                           <h2>Shop for Man</h2>
+                           <span>155 Products</span>
+                           <a href="#" class="shop-cards__link">Shop now</a>
+                        </div>
+                     </div>
+                     <div class="shop-cards__item">
+                        <picture>
+                           <source srcset="img/images/cat2.webp" type="image/webp"><img src="img/images/cat2.jpg"
+                              alt="cat2">
+                        </picture>
+                        <div class="shop-cards__content">
+                           <h2>Shop for Woman</h2>
+                           <span>155 Products</span>
+                           <a href="#" class="shop-cards__link">Shop now</a>
+                        </div>
+                     </div>
+                     <div class="shop-cards__item">
+                        <picture>
+                           <source srcset="img/images/cat3.webp" type="image/webp"><img src="img/images/cat3.jpg"
+                              alt="cat3">
+                        </picture>
+                        <div class="shop-cards__content">
+                           <h2>Shop for Man and Woman</h2>
+                           <span>155 Products</span>
+                           <a href="#" class="shop-cards__link">Shop now</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--/ Section Category -->
+         <!-- Section Products -->
+         <section class="section products" id="products">
+            <div class="titles products__titles filter-titles">
+               <div class="titles__item filter-btn" data-id="trend">
+                  <span class="titles__dot"></span>
+                  <h3 class="titles__title">
+                     Trending Products
+                  </h3>
+               </div>
+               <div class="titles__item filter-btn" data-id="latest">
+                  <span class="titles__dot"></span>
+                  <h3 class="titles__title">
+                     Latest Products
+                  </h3>
+               </div>
+               <div class="titles__item filter-btn" data-id="recent">
+                  <span class="titles__dot"></span>
+                  <h3 class="titles__title">
+                     Recent Products
+                  </h3>
+               </div>
+            </div>
+            <div class="filter-products ">
+               <div class="mx-container">
+                  <div class="filter-products__items" data-type="all-filter">
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--/ Section Products -->
+         <!-- Section Gallery -->
+         <section class="section gallery">
+            <div class="mx-container">
+               <div class="gallery__cards">
+                  <div class="gallery__card">
+                     <img src="img/images/grid_1.webp" alt="image">
+                     <div class="gallery__content">
+                        <h2>Our Popular Products</h2>
+                        <a href="#">View more</a>
+                     </div>
+                  </div>
+                  <div class="gallery__card">
+                     <img src="img/images/grid_2.webp" alt="image">
+                     <div class="gallery__content">
+                        <h2>Winter Collections</h2>
+                     </div>
+                  </div>
+                  <div class="gallery__card">
+                     <img src="img/images/grid_3.webp" alt="image">
+                     <div class="gallery__content">
+                        <h2>Summer Collections</h2>
+                     </div>
+                  </div>
+                  <div class="gallery__card">
+                     <img src="img/images/grid_4.webp" alt="image">
+                     <div class="gallery__content">
+                        <h2>Up to 70% OFF Spring Sale!</h2>
+                        <a href="#">View more</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--/ Section Gallery -->
+         <!-- Section Brands -->
+         <section class="section brands">
+            <div class="mx-container">
+               <div class="brands__body bd-grid">
+                  <div class="brands__item">
+                     <picture>
+                        <source srcset="img/images/brand_1.webp" type="image/webp"><img src="img/images/brand_1.png"
+                           alt="brands">
+                     </picture>
+                  </div>
+                  <div class="brands__item">
+                     <picture>
+                        <source srcset="img/images/brand_2.webp" type="image/webp"><img src="img/images/brand_2.jpg"
+                           alt="brands">
+                     </picture>
+                  </div>
+                  <div class="brands__item">
+                     <picture>
+                        <source srcset="img/images/brand_3.webp" type="image/webp"><img src="img/images/brand_3.jpg"
+                           alt="brands">
+                     </picture>
+                  </div>
+                  <div class="brands__item">
+                     <picture>
+                        <source srcset="img/images/brand_1.webp" type="image/webp"><img src="img/images/brand_1.jpg"
+                           alt="brands">
+                     </picture>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--/ Section Brands -->
+         <!-- Section Latest-Products -->
+         <section class="section latest-products" id="latest">
+            <div class="titles products__titles filter-titles">
+               <div class="titles__item active">
+                  <span class="titles__dot"></span>
+                  <h3 class="titles__title">
+                     Latest Products
+                  </h3>
+               </div>
+            </div>
+            <div class="filter-products">
+               <div class="mx-container">
+                  <div class="filter-products__items" data-type="latest">
+
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--/ Section Latest-Products -->
+         <section class="section latest-news" id="blog">
+            <div class="latest-news__body">
+               <div class="mx-container">
+                  <div class="latest-news__content bd-grid">
+                     <div class="latest-news__item">
+                        <div class="latest-news__img">
+                           <img src="img/images/grid_2.webp" alt="news card">
+                        </div>
+                        <div class="latest-news__text">
+                           <h3>Styling White Shirts After A Cool Day</h3>
+                           <span>By Admin</span>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                              provident rem sed minus natus unde vel modi!Lorem ipsum dolor sit amet consectetur
+                              adipisicing elit. Illo praesentium, numquam non
+                              provident rem sed minus natus unde vel modi!Lorem ipsum dolor sit amet consectetur
+                              adipisicing elit. Illo praesentium, numquam non
+                              provident rem sed minus natus unde vel modi!</p>
+                           <a href="#" class="shop-cards__link">
+                              Read More
+                           </a>
+                        </div>
+                     </div>
+                     <div class="latest-news__item">
+                        <div class="latest-news__img">
+                           <img src="img/images/grid_1.webp" alt="news card">
+                        </div>
+                        <div class="latest-news__text">
+                           <h3>Styling White Shirts After A Cool Day</h3>
+                           <span>By Admin</span>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                              provident rem sed minus natus unde vel modi!</p>
+                           <a href="#" class="shop-cards__link">
+                              Read More
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- Section Recent-View -->
+         <section class="section recent-view" id="recent">
+            <div class="titles products__titles filter-titles">
+               <div class="titles__item active">
+                  <span class="titles__dot"></span>
+                  <h3 class="titles__title">
+                     Recent View
+                  </h3>
+               </div>
+            </div>
+            <div class="filter-products">
+               <div class="mx-container">
+                  <div class="filter-products__items" data-type="recent">
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--/ Section Recent-View -->
+         <!--/ Section Info-More -->
+         <section class="section info-more">
+            <div class="info-more__container">
+               <div class="mx-container">
+                  <div class="info-more__content">
+                     <div class="info-more__icon-box">
+                        <div class="info-more__icon">
+                           <i class="fas fa-plane"></i>
+                        </div>
+                        <p>FREE SHIPPING WORLD WIDE</p>
+                     </div>
+                     <div class="info-more__icon-box">
+                        <div class="info-more__icon">
+                           <i class="fas fa-credit-card"></i>
+                        </div>
+                        <p>100% MONEY BACK GUARANTEE</p>
+                     </div>
+                     <div class="info-more__icon-box">
+                        <div class="info-more__icon">
+                           <i class="far fa-credit-card"></i>
+                        </div>
+                        <p>MANY PAYMENT GATWAYS</p>
+                     </div>
+                     <div class="info-more__icon-box">
+                        <div class="info-more__icon">
+                           <i class="far fa-credit-card"></i>
+                        </div>
+                        <p>24/7 ONLINE SUPPORT</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <!--/ Main -->
+      <!-- Footer -->
+      <footer class="footer">
+         <div class="mx-container">
+            <div class="footer__body">
+               <div class="footer__item footer__item-extras">
+                  <h3>EXTRAS</h3>
+                  <a href="#">Brands</a>
+                  <a href="#">Gift Certificates</a>
+                  <a href="#">Affiliate</a>
+                  <a href="#">Specials</a>
+                  <a href="#">Site Map</a>
+               </div>
+               <div class="footer__item footer__item-info">
+                  <h3>Information</h3>
+                  <a href="#">About Us</a>
+                  <a href="#">Privacy Policy</a>
+                  <a href="#">Terms & Conditions</a>
+                  <a href="#">Contact Us</a>
+                  <a href="#">Site Map</a>
+               </div>
+               <div class="footer__item footer__item-acc">
+                  <h3>My account</h3>
+                  <a href="#">My Account</a>
+                  <a href="#">Order History</a>
+                  <a href="#">Wish List</a>
+                  <a href="#">blogletter</a>
+                  <a href="#">Returns</a>
+               </div>
+               <div class="footer__item footer__item-contact">
+                  <h3>CONTACT US</h3>
+                  <div>
+                     <span>
+                        <i class="fas fa-map-marker-alt"></i>
+                     </span>
+                     42 Dream House, Dreammy street, 7131 Dreamville, USA
+                  </div>
+                  <div>
+                     <span>
+                        <i class="far fa-envelope"></i>
+                     </span>
+                     company@gmail.com
+                  </div>
+                  <div>
+                     <span>
+                        <i class="fas fa-phone"></i>
+                     </span>
+                     456-456-4512
+                  </div>
+                  <div>
+                     <span>
+                        <i class="far fa-paper-plane"></i>
+                     </span>
+                     Dream City, USA
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!--/ Footer -->
+   </div>
+   <div class="button-top">
+      <a href="#" class="button-top__link flex">
+         <i class="fas fa-chevron-up"></i>
+      </a>
+   </div>
+   <div id="preload" class="preload">
+   </div>
+   <div class="error" id="error">
+     
+   </div>
+   <script type="module" src="js/script.js"></script>
+</body>
+
+</html>
